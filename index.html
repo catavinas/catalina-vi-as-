@@ -3,89 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi Blog Personal</title>
+  <title>Blog: Taylor Swift – Álbumes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: white;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .post {
-      margin-bottom: 40px;
-    }
-
-    .post h2 {
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f9f5f0;
       color: #333;
     }
-
-    .post p {
-      line-height: 1.6;
+    h1, h2 {
+      font-family: 'Great Vibes', cursive;
     }
-
-    .date {
-      color: #777;
-      font-size: 0.9em;
-      margin-bottom: 10px;
-    }
-
-    footer {
+    nav {
+      background-color: #fff;
+      padding: 1em;
       text-align: center;
-      padding: 20px;
-      background-color: #333;
-      color: white;
-      margin-top: 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+    }
+    .post {
+      margin-bottom: 3em;
+      padding: 1.5em;
+      border-radius: 8px;
+    }
+    .post img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 0.8em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5em 1em;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 0.8em;
+      transition: opacity 0.3s;
+    }
+    .btn:hover {
+      opacity: 0.8;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      margin-top: 2em;
+    }
+    /* Estilos por álbum */
+    .debut { background-color: #40c0b0; }       /* turquesa */
+    .fearless { background-color: #ffd700; }    /* dorado */
+    .speaknow { background-color: #9b59b6; }    /* morado */
+    .red { background-color: #e74c3c; }         /* rojo */
+    .1989 { background-color: #aec6cf; }        /* azul cielo */
+    .reputation { background-color: #2c3e50; }  /* negro azulado */
+    .lover { background-color: #ffb6c1; }       /* rosa pastel */
+    .folklore { background-color: #bdc3c7; }    /* gris suave */
+    .evermore { background-color: #a0522d; }    /* marrón */
+    .midnights { background-color: #1c2833; }   /* azul oscuro */
+    .ttpd { background-color: #f0f0f0; }        /* gris claro */
+    .showgirl { background-color: #ff8c00; }    /* naranja brillante */
+    .btn-showgirl { background-color: #2ecc71; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Bienvenido a Mi Blog</h1>
-    <p>Reflexiones, ideas y más</p>
-  </header>
+<nav>
+  <a href="#">Inicio</a><a href="#">Discografía</a><a href="#">Contacto</a>
+</nav>
 
-  <div class="container">
+<div class="container">
 
-    <div class="post">
-      <h2>Posteo 1: Comenzando el Blog</h2>
-      <div class="date">9 de septiembre de 2025</div>
-      <p>Hoy inicio este nuevo proyecto personal donde compartiré mis pensamientos, aprendizajes y experiencias. Espero que encuentres algo útil o inspirador en estas publicaciones.</p>
-    </div>
-
-    <div class="post">
-      <h2>Posteo 2: La importancia de la constancia</h2>
-      <div class="date">8 de septiembre de 2025</div>
-      <p>Mantener una rutina y ser constante es clave para alcanzar cualquier objetivo. En este post comparto algunas estrategias que me han ayudado a mantenerme enfocado a lo largo del tiempo.</p>
-    </div>
-
-    <div class="post">
-      <h2>Posteo 3: Libros que me cambiaron</h2>
-      <div class="date">7 de septiembre de 2025</div>
-      <p>Hay libros que llegan en el momento justo y te cambian la forma de ver el mundo. Aquí hablo de tres que marcaron un antes y un después en mi vida.</p>
-    </div>
-
+  <div class="post debut">
+    <h2>Debut</h2>
+    <p>El inicio de todo: Taylor Swift presenta su estilo country romántico y auténtico.</p>
+    <img src="URL_DE_LA_IMAGEN_DEBUT" alt="Portada album Debut">
+    <a class="btn" href="#">Leer más</a>
   </div>
 
-  <footer>
-    &copy; 2025 Mi Blog Personal. Todos los derechos reservados.
-  </footer>
+  <div class="post fearless">
+    <h2>Fearless</h2>
+    <p>La era dorada de historias y valentía juvenil…</p>
+    <img src="URL_DE_LA_IMAGEN_FEARLESS" alt="Portada album Fearless">
+    <a class="btn" href="#">Leer más</a>
+  </div>
+
+  <div class="post speaknow">
+    <h2>Speak Now</h2>
+    <p>Una era propia, con la escritura en primera persona y coraje…</p>
+    <img src="URL_DE_LA_IMAGEN_SPEAKNOW" alt="Portada album Speak Now">
+    <a class="btn" href="#">Leer más</a>
+  </div>
+
+  <!-- Aquí replicarías los .post para Red, 1989, Reputation, Lover, Folklore, Evermore, Midnights, TTPD y Showgirl -->
+
+</div>
+
+<footer>
+  © 2025 Blog Taylor Swift · Creado con estilo Swifty
+</footer>
 
 </body>
 </html>
