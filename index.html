@@ -3,122 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog: Taylor Swift – Álbumes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <title>Blog de Taylor Swift</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
   <style>
     body {
+      font-family: 'Playfair Display', serif;
+      background-color: #fdfcf9;
+      color: #2e3d2f;
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background-color: #f9f5f0;
-      color: #333;
     }
-    h1, h2 {
-      font-family: 'Great Vibes', cursive;
-    }
+
     nav {
-      background-color: #fff;
-      padding: 1em;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: #d6eadf;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
+
     nav a {
-      margin: 0 1em;
       text-decoration: none;
-      color: #555;
+      color: #2e3d2f;
+      margin: 0 1em;
       font-weight: bold;
-      transition: color 0.3s;
+      transition: color 0.3s ease;
     }
+
     nav a:hover {
-      color: #000;
+      color: #799a6e;
     }
+
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 1.5em;
+      color: #3e513b;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #4d6947;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 1em;
+    }
+
     .container {
-      max-width: 800px;
-      margin: 2em auto;
-      padding: 1em;
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
     }
+
     .post {
-      margin-bottom: 3em;
-      padding: 1.5em;
-      border-radius: 8px;
+      background-color: #eaf5e5;
+      padding: 2em;
+      margin-bottom: 2em;
+      border-radius: 10px;
     }
-    .post img {
-      width: 100%;
+
+    img {
+      max-width: 100%;
       height: auto;
-      border-radius: 5px;
-      margin-top: 0.8em;
+      border-radius: 10px;
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
+
     .btn {
       display: inline-block;
-      padding: 0.5em 1em;
+      padding: 0.6em 1.2em;
+      background-color: #a3c9a8;
       color: #fff;
       text-decoration: none;
-      border-radius: 4px;
-      margin-top: 0.8em;
-      transition: opacity 0.3s;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
     }
+
     .btn:hover {
-      opacity: 0.8;
+      background-color: #89b28c;
     }
+
     footer {
-      background-color: #eee;
+      background-color: #d6eadf;
       text-align: center;
       padding: 1em;
+      margin-top: 3em;
       font-size: 0.9em;
-      margin-top: 2em;
+      color: #3e513b;
     }
-    /* Estilos por álbum */
-    .debut { background-color: #40c0b0; }       /* turquesa */
-    .fearless { background-color: #ffd700; }    /* dorado */
-    .speaknow { background-color: #9b59b6; }    /* morado */
-    .red { background-color: #e74c3c; }         /* rojo */
-    .1989 { background-color: #aec6cf; }        /* azul cielo */
-    .reputation { background-color: #2c3e50; }  /* negro azulado */
-    .lover { background-color: #ffb6c1; }       /* rosa pastel */
-    .folklore { background-color: #bdc3c7; }    /* gris suave */
-    .evermore { background-color: #a0522d; }    /* marrón */
-    .midnights { background-color: #1c2833; }   /* azul oscuro */
-    .ttpd { background-color: #f0f0f0; }        /* gris claro */
-    .showgirl { background-color: #ff8c00; }    /* naranja brillante */
-    .btn-showgirl { background-color: #2ecc71; }
   </style>
 </head>
+
 <body>
 
-<nav>
-  <a href="#">Inicio</a><a href="#">Discografía</a><a href="#">Contacto</a>
-</nav>
+  <nav>
+    <div><strong>Taylor Swift Blog</strong></div>
+    <div>
+      <a href="#post1">1989 Era</a>
+      <a href="#post2">Reputation</a>
+      <a href="#post3">The Eras Tour</a>
+    </div>
+  </nav>
 
-<div class="container">
+  <header>
+    <h1>Bienvenidos al Blog de Taylor Swift</h1>
+  </header>
 
-  <div class="post debut">
-    <h2>Debut</h2>
-    <p>El inicio de todo: Taylor Swift presenta su estilo country romántico y auténtico.</p>
-    <img src="URL_DE_LA_IMAGEN_DEBUT" alt="Portada album Debut">
-    <a class="btn" href="#">Leer más</a>
+  <div class="container">
+
+    <div class="post" id="post1">
+      <h2>✨ La Era 1989</h2>
+      <p>
+        El álbum "1989" marcó una transición decisiva hacia el pop. Con éxitos como <em>Blank Space</em> y <em>Shake It Off</em>, Taylor reinventó su imagen artística. Las letras son ingeniosas, modernas y reflejan su evolución personal y musical.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Swift%2C_Taylor_%282007%29.jpg" alt="Taylor Swift 2007">
+      <a href="#" class="btn">Leer más</a>
+    </div>
+
+    <div class="post" id="post2">
+      <h2>🖤 Reputation: Oscuridad y Poder</h2>
+      <p>
+        Con "Reputation", Taylor nos mostró su lado más fuerte y desafiante. El álbum mezcla electropop con mensajes de empoderamiento. Fue una respuesta audaz a los medios y a la cultura del escándalo.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Swift%2C_Taylor_%282007%29.jpg" alt="Taylor Swift 2007 (otra toma)">
+      <a href="#" class="btn">Leer más</a>
+    </div>
+
+    <div class="post" id="post3">
+      <h2>🌟 The Eras Tour</h2>
+      <p>
+        "The Eras Tour" es una celebración de todas sus etapas musicales. Con una producción impresionante, vestuarios icónicos y una conexión única con sus fans, Taylor logra crear una experiencia inolvidable que repasa toda su carrera.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Swift%2C_Taylor_%282007%29.jpg" alt="Taylor Swift 2007 (misma imagen)">
+      <a href="#" class="btn">Leer más</a>
+    </div>
+
   </div>
 
-  <div class="post fearless">
-    <h2>Fearless</h2>
-    <p>La era dorada de historias y valentía juvenil…</p>
-    <img src="URL_DE_LA_IMAGEN_FEARLESS" alt="Portada album Fearless">
-    <a class="btn" href="#">Leer más</a>
-  </div>
-
-  <div class="post speaknow">
-    <h2>Speak Now</h2>
-    <p>Una era propia, con la escritura en primera persona y coraje…</p>
-    <img src="URL_DE_LA_IMAGEN_SPEAKNOW" alt="Portada album Speak Now">
-    <a class="btn" href="#">Leer más</a>
-  </div>
-
-  <!-- Aquí replicarías los .post para Red, 1989, Reputation, Lover, Folklore, Evermore, Midnights, TTPD y Showgirl -->
-
-</div>
-
-<footer>
-  © 2025 Blog Taylor Swift · Creado con estilo Swifty
-</footer>
+  <footer>
+    © 2025 Blog de Taylor Swift. Diseñado con amor pastel 💚
+  </footer>
 
 </body>
 </html>
